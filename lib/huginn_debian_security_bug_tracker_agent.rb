@@ -1,0 +1,4 @@
+require 'huginn_agent'
+
+#HuginnAgent.load 'huginn_debian_security_bug_tracker_agent/concerns/my_agent_concern'
+HuginnAgent.register 'huginn_debian_security_bug_tracker_agent/debian_security_bug_tracker_agent'
