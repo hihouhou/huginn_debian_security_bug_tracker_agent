@@ -278,7 +278,7 @@ module Agents
                         generated_event['nodsa'] = release[3]
                         generated_event['nodsa_reason'] = release[4]
                         generated_event['cve'] = cve
-                        generated_event['os'] = "buster"
+                        generated_event['os'] = release.first
                         generated_event['package'] = package
                         generated_event['description'] = content['description']
                         generated_event['scope'] = content['scope']
@@ -335,7 +335,7 @@ module Agents
                         generated_event['nodsa'] = release[3]
                         generated_event['nodsa_reason'] = release[4]
                         generated_event['cve'] = cve
-                        generated_event['os'] = "buster"
+                        generated_event['os'] = release.first
                         generated_event['package'] = package
                         generated_event['description'] = content['description']
                         generated_event['scope'] = content['scope']
